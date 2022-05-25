@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+* {
+  /* font-family: 'Gowun Dodum', sans-serif; */
+}
+
+body {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gowun Dodum', sans-serif;
+  min-height: 100vh; /* 웹 스크린의 실제 100%를 다 먹겠다*/
+  margin: 0;
+}
+
+@media (min-width: 650px) {
+  .App {
+    width: 640px;
+  }
+}
+
+@media (max-width: 650px) {
+  /*650 미만일 때 90%를 차지하겠다*/
+  .App {
+    width: 90vw;
+  }
+}
+
+#root {
+  background-color: #ffffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.App {
+  min-height: 100vh;
+  padding: 0 20px;
+}
+
+/* MyButton */
+.MyButton {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  white-space: nowrap; /* 버튼 안의 글자가 잘려서 두 줄이 되지 않도록 하는? */
+}
+
+.MyButton_default {
+  background-color: #ececec;
+  color: #000000;
+}
+
+.MyButton_positive {
+  background-color: #64c964;
+  color: #fff;
+}
+
+.MyButton_negative {
+  background-color: #fd565f;
+  color: #fff;
+}
+
+/* Header */
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+header > div {
+  display: flex;
+}
+
+header .head_text {
+  width: 50%;
+  font-size: 20px;
+  justify-content: center;
+}
+
+header .head_btn_left {
+  width: 25%;
+  justify-content: start;
+}
+
+header .head_btn_right {
+  width: 25%;
+  justify-content: end;
+}
+
+/* DiaryList */
+.DiaryList .menu_wrapper {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.DiaryList .menu_wrapper .right_col {
+  flex-grow: 1;
+}
+
+.DiaryList .menu_wrapper .right_col button {
+  width: 100%;
+}
+
+.DiaryList .ControlMenu {
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ececec;
+  padding: 10px 20px;
+  cursor: pointer;
+  /* font-family: 'Gowun Dodum', sans-serif; */
+}
+
+.DiaryItem {
+  padding: 15px 0;
+  border-bottom: 1px solid #e2e2e2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.DiaryItem .emotion_img_wrapper {
+  cursor: pointer;
+  min-width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* .DiaryItem .emotion_img_wrapper img {
+  width: 100%;
+} */
+
+.DiaryItem .emotion_img_wrapper_1 {
+  background-color: #fd565f;
+}
+.DiaryItem .emotion_img_wrapper_2 {
+  background-color: #fd8446;
+}
+.DiaryItem .emotion_img_wrapper_3 {
+  background-color: #fdce17;
+}
+.DiaryItem .emotion_img_wrapper_4 {
+  background-color: #9dd772;
+}
+.DiaryItem .emotion_img_wrapper_5 {
+  background-color: #64c964;
+}
+
+.DiaryItem .info_wrapper {
+  flex-grow: 1;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.DiaryItem .diary_date {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.DiaryItem .diary_content_preview {
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+.DiaryItem .btn_wrapper {
+  min-width: 70px;
+  /* border: 1px solid red; */
+}
+
+.DiaryItem button {
+  /* border: 1px solid blue; */
+  margin: 20px 0;
+}
+
+/* Diary Editor */
+.DiaryEditor section {
+  margin-bottom: 40px;
+}
+
+.DiaryEditor h4 {
+  font-size: 18px;
+}
+
+.DiaryEditor .input_date {
+  border: none;
+  border-radius: 5px;
+  background-color: #ececec;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: 'Gowun Dodum';
+  font-size: 15px;
+}
+
+.DiaryEditor .emotion_list_wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  gap: 2%;
+  font-size: 15px;
+}
+
+.DiaryEditor textarea {
+  font-family: 'Gowun Dodum';
+  font-size: 15px;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 200px;
+  resize: vertical;
+  border: none;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+  padding: 10px 15px;
+}
+
+.DiaryEditor .control_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.EmotionItem {
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.EmotionItem img {
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+/* .EmotionItem span {
+  font-size: 16px;
+} */
+
+.EmotionItem_off {
+  background-color: #ececec;
+}
+
+.EmotionItem_on_1 {
+  background-color: #fd565f;
+  color: #f6f6f6;
+  font-weight: 600;
+}
+.EmotionItem_on_2 {
+  background-color: #fd8446;
+  color: #f6f6f6;
+  font-weight: 600;
+}
+.EmotionItem_on_3 {
+  background-color: #fdce17;
+  color: #f6f6f6;
+  font-weight: 600;
+}
+.EmotionItem_on_4 {
+  background-color: #9dd772;
+  color: #f6f6f6;
+  font-weight: 600;
+}
+.EmotionItem_on_5 {
+  background-color: #64c964;
+  color: #f6f6f6;
+  font-weight: 600;
+}
+
+/* Diary */
+.DiaryPage {
+}
+.DiaryPage section {
+  width: 100%;
+  margin: 10px 0 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+.DiaryPage h4 {
+  font-size: 18px;
+  /* font-weight: 600; */
+}
+.DiaryPage .diary_img_wrapper {
+  background-color: #ececec;
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.DiaryPage .emotion_descript {
+  font-size: 18px;
+  color: #f6f6f6;
+  padding-bottom: 15px;
+  /* border: 1px solid red; */
+}
+.DiaryPage .diary_img_wrapper_1 {
+  background-color: #fd565f;
+}
+.DiaryPage .diary_img_wrapper_2 {
+  background-color: #fd8446;
+}
+.DiaryPage .diary_img_wrapper_3 {
+  background-color: #fdce17;
+}
+.DiaryPage .diary_img_wrapper_4 {
+  background-color: #9dd772;
+}
+.DiaryPage .diary_img_wrapper_5 {
+  background-color: #64c964;
+}
+
+.DiaryPage .diary_content_wrapper {
+  width: 100%;
+  min-height: 350px;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  /* word-break: keep-all; */
+  overflow-wrap: break-word;
+}
+.DiaryPage .diary_content_wrapper p {
+  padding: 20px;
+  text-align: left;
+  line-height: 2.0; /*줄 간격 나중에 수정*/
+}
