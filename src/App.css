@@ -336,5 +336,5 @@ header .head_btn_right {
 .DiaryPage .diary_content_wrapper p {
   padding: 20px;
   text-align: left;
-  line-height: 2.0; /*줄 간격 나중에 수정*/
+  line-height: 2; /*줄 간격 나중에 수정*/
 }
