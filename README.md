@@ -1,17 +1,21 @@
 <!-- Heading -->
-## ✨Dear Diary Toy Project
+## ✨Dear Diary mini Project
+hyexjun-deardiary.web.app
 
 <!-- 작업 목록 -->
 ### 2022.04.14 (목)
-Router : useParams, useSearchParams, useNavigate 사용하여 url 정리
+Router : useParams, useSearchParams, useNavigate 사용하여 url 교통정리
 
 ### 2022.04.15 (금)
 - 주석 정리
-- 기초공사 작업하기 1
+- 전체 페이지 레이아웃(미디어 쿼리) 설정
+- 이미지 에셋 세팅
 
 ### 2022.04.25 (수)
 - 메인화면 기능 구현 : 버튼, 헤더 컴포넌트 작업
-
+- 버튼 컴포넌트 타입 프롭으로 재사용성 향상
+- 일기 데이터 state 라우터 별 로직 분류 ex. 일기 리스트, 일기 작성/수정, 일기 상세뷰
+- Context API 적용
 
 ### 2022.04.29 (일)
 - 일기목록 범위 한 달 단위로 설정
