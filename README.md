@@ -1,6 +1,5 @@
 <!-- Heading -->
-## ✨Dear Diary mini Project
-https://hyexjun-deardiary.web.app/
+## ✨Friendly Diary mini Project : o'u that
 
 <!-- 작업 목록 -->
 ### 2022.04.14 (목)
