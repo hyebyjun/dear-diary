@@ -1,5 +1,5 @@
 <!-- Heading -->
-## ✨Friendly Diary mini Project : << o'u that >>
+## Friendly Diary mini Project : o'u that
 https://diary-outhat.web.app/
 
 <!-- 작업 목록 -->
@@ -44,3 +44,7 @@ Router : useParams, useSearchParams, useNavigate 사용하여 url 교통정리
 - 일기 상세페이지 상단 연원일 표기 수정
 - 불필요한 렌더링 방지, 최적화 작업
 - 스타일링 세부 수정, 배포, meta 꾸미기 작업
+
+### 2022.07.01 (금)
+- 앱 이름 변경, 수정사항 
+- 파이어베이스 재배포로 씨름하기.. *성공!
