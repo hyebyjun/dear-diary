@@ -1,5 +1,6 @@
 <!-- Heading -->
-## ✨Friendly Diary mini Project : o'u that
+## ✨Friendly Diary mini Project : << o'u that >>
+https://diary-outhat.web.app/
 
 <!-- 작업 목록 -->
 ### 2022.04.14 (목)
