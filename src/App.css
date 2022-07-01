@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@200;300;400&family=IBM+Plex+Sans+KR:wght@200;300;400;500;600&family=Nanum+Gothic:wght@400;700&family=Nanum+Myeongjo:wght@400;700&display=swap');
 
 * {
   /* font-family: 'Gowun Dodum', sans-serif; */
@@ -9,7 +9,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Gowun Dodum', sans-serif;
+  /* font-family: 'Hahmlet', serif; */
+  font-family: 'IBM Plex Sans KR', sans-serif;
+  /* font-family: 'Nanum Gothic', sans-serif; */
+  /* font-family: 'Nanum Myeongjo', serif; */
   min-height: 100vh; /* 웹 스크린의 실제 100%를 다 먹겠다*/
   margin: 0;
 }
@@ -47,6 +50,7 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   font-size: 14px;
+  font-family: 'IBM Plex Sans KR', sans-serif;
   white-space: nowrap; /* 버튼 안의 글자가 잘려서 두 줄이 되지 않도록 하는? */
 }
 
@@ -80,8 +84,10 @@ header > div {
 
 header .head_text {
   width: 50%;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 300;
   justify-content: center;
+  white-space: nowrap;
 }
 
 header .head_btn_left {
@@ -108,6 +114,7 @@ header .head_btn_right {
 
 .DiaryList .menu_wrapper .right_col button {
   width: 100%;
+  font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
 .DiaryList .ControlMenu {
@@ -117,7 +124,7 @@ header .head_btn_right {
   background-color: #ececec;
   padding: 10px 20px;
   cursor: pointer;
-  /* font-family: 'Gowun Dodum', sans-serif; */
+  font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
 .DiaryItem {
@@ -189,7 +196,8 @@ header .head_btn_right {
 }
 
 .DiaryEditor h4 {
-  font-size: 18px;
+  font-size: 17px;
+  font-weight: 500;
 }
 
 .DiaryEditor .input_date {
@@ -198,7 +206,7 @@ header .head_btn_right {
   background-color: #ececec;
   padding: 10px 20px;
   cursor: pointer;
-  font-family: 'Gowun Dodum';
+  font-family: 'IBM Plex Sans KR', sans-serif;
   font-size: 15px;
 }
 
@@ -210,7 +218,8 @@ header .head_btn_right {
 }
 
 .DiaryEditor textarea {
-  font-family: 'Gowun Dodum';
+  /* font-family: 'Gowun Dodum'; */
+  font-family: 'IBM Plex Sans KR', sans-serif;
   font-size: 15px;
   box-sizing: border-box;
   width: 100%;
@@ -291,7 +300,7 @@ header .head_btn_right {
 }
 .DiaryPage h4 {
   font-size: 18px;
-  /* font-weight: 600; */
+  font-weight: 400;
 }
 .DiaryPage .diary_img_wrapper {
   background-color: #ececec;

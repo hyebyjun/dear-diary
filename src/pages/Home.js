@@ -63,8 +63,8 @@ const Home = () => {
     <div>
       <MyHeader
         headText={headText}
-        leftChild={<MyButton text={'<'} onClick={decreaseMonth} />}
-        rightChild={<MyButton text={'>'} onClick={increaseMonth} />}
+        leftChild={<MyButton text={'◀'} onClick={decreaseMonth} />}
+        rightChild={<MyButton text={'▶'} onClick={increaseMonth} />}
       />
       <DiaryList diaryList={data} />
     </div>

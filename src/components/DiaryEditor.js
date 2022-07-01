@@ -97,7 +97,7 @@ const DiaryEditor = ({ isEdit, originData }) => {
   return (
     <div className='DiaryEditor'>
       <MyHeader
-        headText={isEdit ? 'E d i t . D i a r y' : 'N e w . D i a r y 🍕'}
+        headText={isEdit ? '🥨 EDIT DIARY 🥞' : '🌭 NEW DIARY 🍕'}
         // headText={isEdit ? originData.id+'번 일기 수정하기' : '새로운 일기'}
         leftChild={<MyButton text={'<'} onClick={() => navigate(-1)} />}
         rightChild={
