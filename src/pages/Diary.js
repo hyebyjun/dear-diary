@@ -42,7 +42,7 @@ const Diary = () => {
         {/* 날짜 양식도 재사용이 은근 있으니 컴포넌트화 해서 util폴더에 세팅 + 임포트 */}
         <MyHeader
           // headText={`${getStringDate(new Date(data.date))} 일기`}
-          headText={`${new Date(data.date).getFullYear()}년 🍟 ${
+          headText={`${new Date(data.date).getFullYear()}년 🎨 ${
             new Date(data.date).getMonth() + 1
           }월 ${new Date(data.date).getDate()}일`}
           leftChild={<MyButton text={'<'} onClick={() => navigate(-1)} />}

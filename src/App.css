@@ -138,7 +138,7 @@ header .head_btn_right {
   cursor: pointer;
   min-width: 80px;
   height: 80px;
-  border-radius: 20px;
+  border-radius: 15px;
   display: flex;
   justify-content: center;
 }
@@ -182,11 +182,9 @@ header .head_btn_right {
 
 .DiaryItem .btn_wrapper {
   min-width: 70px;
-  /* border: 1px solid red; */
 }
 
 .DiaryItem button {
-  /* border: 1px solid blue; */
   margin: 20px 0;
 }
 
@@ -223,7 +221,7 @@ header .head_btn_right {
   font-size: 15px;
   box-sizing: border-box;
   width: 100%;
-  min-height: 200px;
+  min-height: 300px;
   resize: vertical;
   border: none;
   border-radius: 10px;
@@ -248,42 +246,37 @@ header .head_btn_right {
 }
 
 .EmotionItem img {
-  width: 60%;
+  width: 50%;
   margin-bottom: 10px;
 }
 
-/* .EmotionItem span {
+.EmotionItem span {
   font-size: 16px;
-} */
-
-.EmotionItem_off {
-  background-color: #ececec;
 }
+
+/* .EmotionItem_off {
+  background-color: #ececec;
+} */
 
 .EmotionItem_on_1 {
   background-color: #fd565f;
   color: #f6f6f6;
-  font-weight: 600;
 }
 .EmotionItem_on_2 {
   background-color: #fd8446;
   color: #f6f6f6;
-  font-weight: 600;
 }
 .EmotionItem_on_3 {
   background-color: #fdce17;
   color: #f6f6f6;
-  font-weight: 600;
 }
 .EmotionItem_on_4 {
   background-color: #9dd772;
   color: #f6f6f6;
-  font-weight: 600;
 }
 .EmotionItem_on_5 {
   background-color: #64c964;
   color: #f6f6f6;
-  font-weight: 600;
 }
 
 /* Diary */
@@ -306,7 +299,7 @@ header .head_btn_right {
   background-color: #ececec;
   width: 200px;
   height: 200px;
-  border-radius: 15px;
+  border-radius: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
